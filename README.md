@@ -1,6 +1,6 @@
 # Golden Sécurité – Site vitrine
 
-Site vitrine professionnel pour **Golden Sécurité**, agence de sécurité à Bamako (Mali) : gardiennage, sécurité privée, vidéosurveillance, vente de matériels.
+Site vitrine professionnel pour **Golden Sécurité**, société de sécurité à Bamako (Mali) : gardiennage, sécurité privée, vidéosurveillance, vente de matériels.
 
 ## Technologies
 
@@ -124,7 +124,7 @@ Conseils : privilégier des visuels orientés **sécurité** (agents, caméras, 
 ## SEO
 
 - Métadonnées (title, description, keywords) sur toutes les pages.
-- Mots clés ciblés : *sécurité privée Bamako*, *gardiennage Mali*, *vidéosurveillance Bamako*, *agence de sécurité Mali*.
+- Mots clés ciblés : *sécurité privée Bamako*, *gardiennage Mali*, *vidéosurveillance Bamako*, *société de sécurité Mali*.
 - Balises Open Graph prêtes à être complétées avec une image si besoin.
 
 ## Fonctionnalités incluses

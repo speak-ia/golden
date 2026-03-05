@@ -22,12 +22,12 @@ export const metadata: Metadata = {
     template: "%s | Golden Sécurité",
   },
   description:
-    "Agence de sécurité à Bamako, Mali : gardiennage, sécurité privée, protection des biens et des personnes, vidéosurveillance, installation de caméras, vente de matériels de sécurité. Devis gratuit.",
+    "Société de sécurité à Bamako, Mali : gardiennage, sécurité privée, protection des biens et des personnes, vidéosurveillance, installation de caméras, vente de matériels de sécurité. Devis gratuit.",
   keywords: [
     "sécurité privée Bamako",
     "gardiennage Mali",
     "vidéosurveillance Bamako",
-    "agence de sécurité Mali",
+    "société de sécurité Mali",
     "caméras de sécurité",
     "protection biens et personnes",
   ],

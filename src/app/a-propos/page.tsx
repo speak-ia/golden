@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "À propos",
   description:
-    "Golden Sécurité, agence de sécurité à Bamako : mission, vision et valeurs. Professionnalisme, fiabilité et protection des biens et des personnes.",
+    "Golden Sécurité, société de sécurité à Bamako : mission, vision et valeurs. Professionnalisme, fiabilité et protection des biens et des personnes.",
 };
 
 export default function AProposPage() {

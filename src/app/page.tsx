@@ -106,7 +106,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-                Une agence de sécurité de confiance au Mali
+                Une société de sécurité de confiance au Mali
               </h2>
               <p className="text-gray-400 mb-4">
                 <strong className="text-[#c9a227]">Golden Sécurité</strong> assure la protection des biens et des personnes à Bamako et environs. Gardiennage, sécurité privée, vidéosurveillance et vente de matériels : nous proposons des solutions sur mesure pour les entreprises et les particuliers.
