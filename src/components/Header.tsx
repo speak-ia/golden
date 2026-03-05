@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useState, useEffect } from "react";
 import { SITE, NAV_LINKS } from "@/lib/constants";
@@ -23,7 +24,14 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center gap-3 group">
+          <Image
+            src="/images/logo.png"
+            alt="Golden Sécurité"
+            width={56}
+            height={56}
+            className="rounded-lg object-contain"
+          />
           <span className="text-xl font-bold tracking-wider text-white">
             GOLDEN <span className="text-[#c9a227]">SECURITE</span>
           </span>
