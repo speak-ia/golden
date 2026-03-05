@@ -3,6 +3,7 @@ import { SITE, SERVICES, STATS } from "@/lib/constants";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import FAQ from "@/components/FAQ";
 import CameraAnimation from "@/components/CameraAnimation";
+import FadeInSection from "@/components/FadeInSection";
 
 const testimonials = [
   {
@@ -91,6 +92,7 @@ export default function HomePage() {
       </section>
 
       {/* Présentation rapide */}
+      <FadeInSection>
       <section className="py-16 md:py-24 bg-[#0d1b2a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -122,8 +124,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* Services principaux */}
+      <FadeInSection>
       <section className="py-16 md:py-24 bg-[#0a0e17]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
@@ -160,8 +164,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* Pourquoi nous choisir + Stats */}
+      <FadeInSection>
       <section className="py-16 md:py-24 bg-[#0d1b2a]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
@@ -208,8 +214,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* Témoignages */}
+      <FadeInSection>
       <section className="py-16 md:py-24 bg-[#0a0e17]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-12">
@@ -228,6 +236,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      </FadeInSection>
 
       {/* Contact rapide */}
       <section className="py-16 md:py-24 bg-[#0d1b2a]">
