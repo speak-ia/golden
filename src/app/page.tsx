@@ -6,7 +6,7 @@ import FAQ from "@/components/FAQ";
 import CameraAnimation from "@/components/CameraAnimation";
 import FadeInSection from "@/components/FadeInSection";
 
-const GALLERY_IMAGES = Array.from({ length: 11 }, (_, i) => `/images/${i + 1}.jpeg`);
+const GALLERY_IMAGES = Array.from({ length: 12 }, (_, i) => `/images/${i + 1}.jpeg`);
 const HERO_BG_IMAGE = "/images/1.jpeg"; // Remplacez par /images/hero-bg.jpeg si vous ajoutez une image dédiée
 
 const testimonials = [
