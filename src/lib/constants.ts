@@ -81,10 +81,10 @@ export const SOLUTIONS = [
 ] as const;
 
 export const STATS = [
-  { value: 500, suffix: "+", label: "Clients satisfaits" },
-  { value: 150, suffix: "+", label: "Agents qualifiés" },
-  { value: 10, suffix: "", label: "Années d'expérience" },
-  { value: 24, suffix: "/7", label: "Surveillance" },
+  { value: 0, suffix: "", label: "Clients satisfaits" },
+  { value: 0, suffix: "", label: "Agents qualifiés" },
+  { value: 0, suffix: "", label: "Années d'expérience" },
+  { value: 0, suffix: "", label: "Surveillance" },
 ] as const;
 
 export const FAQ_ITEMS = [

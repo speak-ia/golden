@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <h3 className="text-white font-bold text-lg mb-4">
-              GOLDEN <span className="text-[#c9a227]">SECURITE</span>
+              GOLDEN SECURITE
             </h3>
             <p className="text-sm mb-4">{SITE.slogan}</p>
             <p className="text-sm">{SITE.address}</p>

@@ -33,7 +33,7 @@ export default function Header() {
             className="rounded-lg object-contain"
           />
           <span className="text-xl font-bold tracking-wider text-white">
-            GOLDEN <span className="text-[#c9a227]">SECURITE</span>
+            GOLDEN SECURITE
           </span>
         </Link>
 
