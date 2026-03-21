@@ -8,6 +8,16 @@ import FadeInSection from "@/components/FadeInSection";
 
 const GALLERY_IMAGES = Array.from({ length: 12 }, (_, i) => `/images/${i + 1}.jpeg`);
 const HERO_BG_IMAGE = "/images/1.jpeg"; // Remplacez par /images/hero-bg.jpeg si vous ajoutez une image dédiée
+const PARTNERS = [
+  "Parc National du Mali et Zoo",
+  "Université Ecosup",
+  "Lycée Mandé Massa",
+  "Ambassade du Qatar",
+  "EMD (Robex Nampala Mining)",
+  "Super Marché - Le Marchand",
+  "Groupe Moumine service",
+  "Sécurité des domiciles",
+] as const;
 
 const testimonials = [
   {
@@ -247,6 +257,43 @@ export default function HomePage() {
                   sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      </FadeInSection>
+
+      {/* Partenaires */}
+      <FadeInSection>
+      <section className="py-16 md:py-24 bg-[#0d1b2a]" id="partenaires">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
+          <div className="flex flex-col items-center text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Nos partenaires</h2>
+            <p className="text-gray-500 max-w-2xl">
+              Ils nous font confiance pour la sécurité des sites, des équipes et des domiciles.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {PARTNERS.map((name) => (
+              <div
+                key={name}
+                className="rounded-xl bg-[#061018] border border-[#c9a227]/20 p-5 hover:border-[#c9a227]/50 transition-colors"
+              >
+                <div className="flex items-start gap-3">
+                  <div className="mt-0.5 text-[#c9a227]">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  </div>
+                  <div className="text-white font-medium leading-snug">{name}</div>
+                </div>
               </div>
             ))}
           </div>
